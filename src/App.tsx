@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import Overview from "./components/Overview";
 import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
+import Products from "./components/Products";
+import Services from "./components/Services";
 
 function App() {
   const phoneNumber = "254706384510";
@@ -18,7 +20,8 @@ function App() {
       <Hero />
       <Overview />
       <AboutUs />
-
+      <Products />
+      <Services />
       {/* WhatsApp floating button */}
       <a
         href={whatsappURL}
