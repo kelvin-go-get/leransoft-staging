@@ -6,7 +6,7 @@ const Overview = () => {
     <section id="Overview" className="w-full bg-white">
       {/* Section 1: What is ERP */}
       <div className="max-w-7xl mx-auto py-20 px-4 lg:px-20">
-        <h1 className="text-4xl font-bold text-black mb-6">
+        <h1 className="text-4xl font-bold text-blue-950 mb-6">
           What is Enterprise Resource Planning (E.R.P) Software?
         </h1>
         <div className="justify-between md:flex grid">
@@ -39,7 +39,7 @@ const Overview = () => {
 
       {/* Section 2: Why You Need ERP */}
       <div className="max-w-7xl mx-auto py-16 px-4 lg:px-20 bg-gray-50 shadow-md">
-        <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-blue-950">
           Why Your Business Needs ERP
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed font-medium max-w-5xl">
