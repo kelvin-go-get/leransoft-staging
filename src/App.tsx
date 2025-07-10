@@ -19,9 +19,10 @@ function App() {
       <Header />
       <Hero />
       <Overview />
-      <AboutUs />
-      <Products />
       <Services />
+      <Products />
+
+      <AboutUs />
       {/* WhatsApp floating button */}
       <a
         href={whatsappURL}
