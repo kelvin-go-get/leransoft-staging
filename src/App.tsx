@@ -6,6 +6,7 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Products from "./components/Products";
 import Services from "./components/Services";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   const phoneNumber = "254706384510";
@@ -21,8 +22,8 @@ function App() {
       <Overview />
       <Services />
       <Products />
-
       <AboutUs />
+      <ContactUs />
       {/* WhatsApp floating button */}
       <a
         href={whatsappURL}
